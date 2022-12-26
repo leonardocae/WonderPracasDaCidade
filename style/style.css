@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap');
+
+*{
+    scroll-behavior: smooth;
+}
+
+
+h1 {
+    font-family: 'EB Garamond', serif;
+    color: white;
+
+}
+
+h2{
+    font-family: 'EB Garamond', serif;
+}
+
+p, h3, h4, h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.parag-1 {
+    font-size: 13px;
+    background-color: black;
+    width: 33%;
+    text-align: center;
+    color: white;
+}
+.parag-2 {
+    font-size: 13px;
+    background-color: black;
+    width: 72%;
+    text-align: center;
+    color: white;
+}
+.wonder h4{
+    font-size: 1rem;
+    color: lightgray;
+}
+
+.bg-wonder{
+    background-color: black;
+}
+
+.text-wonder{
+    color:#513b46;
+}
+/* Carousel Transition */
+.carousel-item{
+    transition: transform 2s ease-in, opacity .5s ease-out;
+}
+
+/* gallery */
+.gallery a {
+    text-decoration: none;
+}
+
+/* tradutor */
+.tradutor {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#google_translate_element {
+    display: none;
+}
+
+/* bg patterns */
+.bg-pattern{
+    background-color: #000000;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 4px ), repeating-linear-gradient( #513b4655, #513b46 );
+}
+
+.bg-pattern-1{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #ffffff 4px ), repeating-linear-gradient( #f8f8f855, #f8f8f8 );
+}
+
+.bg-pattern-nav{
+    background-color: #130a0e;
+}
+#fotos {
+    height: 40px;
+}
+
+/* Whatsapp */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+.my-float{
+	margin-top:16px;
+}
+
+/* plantas */
+.plantas p {
+    font-size: .8rem;
+}
+
+
+/* youtube video */
+.video-container {
+    overflow: hidden;
+    position: relative;
+    width:40%;
+
+}
+
+.video-container::after {
+    padding-top: 56.25%;
+    display: block;
+    content: '';
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
+/* toggler */

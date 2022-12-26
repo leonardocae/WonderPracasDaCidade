@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	
+    <!-- Lightslider -->
+    <link rel="stylesheet" href="./component/lightslider/css/lightslider.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./component/lightslider/js/lightslider.js"></script>
+
+    <!-- Lightgallery -->
+	<link href="./component/simplelightbox/simple-lightbox.min.css" rel="stylesheet" />
+
+
+    <title>Wonder by Praças da Cidade</title>
+</head>
+<body>
+
+	  <nav class="navbar navbar-expand-lg navbar-dark bg-pattern-nav sticky-top">
+		<div class="container-lg">
+			<a class="navbar-brand align" href="#">
+				<img src="img/Logo/logo Wonder.png" alt="" width="250">
+			</a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+			<ul class="navbar-nav">
+			  <li class="nav-item">
+				<a class="nav-link text-white mx-2 active" aria-current="page" href="#">Projeto</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-white mx-2" href="#fotos">Fotos e Plantas</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-white mx-2" href="#fotos">Localização</a>
+			  </li>
+			 	<li class="nav-item">
+				<a class="nav-link text-white mx-2" href="#video">Vídeo</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-white mx-2" href="#contato">Contato</a>
+			  </li>
+			</ul>
+		  	<!-- translate icons -->
+			<div class="row text-end ">
+				<a href="javascript:trocarIdioma('zh-CN')" class="tradutor"><img src="./img/header/ch-flag.png" height="10px"alt=""> 中国人</a>
+				 <a href="javascript:trocarIdioma('en')" class="tradutor"><img src="./img/header/en-flag.png" height="10px" alt=""> English</a>
+			</div>
+			<!-- Tradutor Google - Disable-->
+			<div id="google_translate_element" class="boxTradutor"></div>
+		  </div>
+		</div>
+	  </nav>
+
+	  <!-- Section Home -->
+	<section class="container-fluid sec-home  bg-pattern">
+		<div class="container-lg py-5 sec-home">
+			<div class="row justify-content-between align-items-center">
+				<div class="wonder col-lg-4 col-md-8 text-wonder">
+					<h1 class="">
+						Wonder by Praças da Cidade, Brás.
+					</h1>
+					<h4 class="my-3">O Wonder by Praças da Cidade é um empreendimento com torre única em um terreno de mais de 4.800 m² com lazer completo e serviços diferenciados. Localizado em uma região central, você terá fácil acesso a qualquer ponto da cidade de São Paulo. Apartamentos de 82 m² com 2 suítes, 105 m² com 3 dorms, sendo 1 suíte e 121 m² com 3 suítes.</h4>
+					<p class="parag-1 text-uppercase text-center">Obras iniciadas</p>
+					<p class="parag-2 text-uppercase text-center">Entrega prevista para 2º semestre/2021</p>
+				</div>
+				<div class="wonder col-lg-8">
+				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img src="./img/img banners/1.png" class="d-block w-100" alt="...">
+					  </div>
+					  <div class="carousel-item">
+						<img src="./img/img banners/2.png" class="d-block w-100" alt="...">
+					  </div>
+					  <div class="carousel-item">
+						<img src="./img/img banners/8.png" class="d-block w-100" alt="...">
+					  </div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Next</span>
+					</button>
+				  </div>
+				</div>  
+			</div>
+		</div>
+
+		<!-- icons info -->
+		<div class="sec-info py-1" id="info">
+			<div class="container-lg py-4">
+			  <div class="row text-center">
+				<div class="col-md-4 col-lg-3 mb-4">
+				  <div class="shadow-sm  bg-pattern-1 p-2 rounded bg-white">  
+					<div class="icon my-3 fs-5">
+						<i class="mb-3 fs-3 fas fa-bed"></i>
+					</div>
+					  <h3 class="fs-5 py-1">2 ou 3 dormitórios</h3>
+				  </div>    
+				</div>
+				<div class="col-md-4 col-lg-3 mb-4">
+				  <div class="shadow-sm  bg-pattern-1 p-2 rounded bg-white">  
+					<div class="icon my-3 fs-5">
+						<i class="mb-3 fs-3 fas fa-car"></i>
+					</div>
+					  <h3 class="fs-5 py-1">1 ou 2 vagas determinadas</h3>
+				  </div>    
+				</div>
+				<div class="col-md-4 col-lg-3 mb-4 mx-sm-auto">
+				  <div class="shadow-sm  bg-pattern-1 p-2 rounded bg-white">  
+					<div class="icon my-3 fs-5">
+						<i class="mb-3 fs-3 fas fa-ruler-triangle"></i>
+					</div>
+					  <h3 class="fs-5 py-1">82, 105 E 122 M²</h3>
+				  </div>    
+				</div>
+				<div class="col-md-4 col-lg-3 mb-4 mx-sm-auto">
+					<div class="shadow-sm  bg-pattern-1 p-2 rounded bg-white">  
+					  <div class="icon my-3 fs-5">
+						<i class="mb-3 fs-3 fas fa-building"></i>
+					  </div>
+						<h3 class="fs-5 py-1">Total de 170 unidades</h3>
+						<span id="fotos"></span>
+					</div>    
+				  </div>
+			  </div>
+			</div>
+		</div>
+	</section>
+
+	<div class="bg-pattern-1">
+	<!-- Section Fotos -->
+	<section class="container-fluid my-4">
+		<div class="container-lg sec-fotos">
+			<div class="row ">
+				<div class="gallery col-lg-8"> 
+					<h2 class="mb-4 text-center">Fotos</h2>
+					<a href="./img/img banners/1.png" class="big" rel="rel1">
+						<img src="./img/img banners/1.png" class="mb-2" height="75px" alt="" title="Imagem 1">
+					</a>
+					<a href="./img/img banners/2.png" class="big" rel="rel1">
+						<img src="./img/img banners/2.png" class="mb-2" height="75px" alt="" title="Imagem 2">
+					</a>
+					<a href="./img/img banners/3.png" class="big" rel="rel1">
+						<img src="./img/img banners/3.png" class="mb-2" height="75px" alt="" title="Imagem 3">
+					</a>
+					<a href="./img/img banners/4.png" class="big" rel="rel1">
+						<img src="./img/img banners/4.png" class="mb-2" height="75px" alt="" title="Imagem 4">
+					</a>
+					<a href="./img/img banners/5.png" class="big" rel="rel1">
+						<img src="./img/img banners/5.png" class="mb-2" height="75px" alt="" title="Imagem 5">
+					</a>
+					<a href="./img/img banners/6.png" class="big" rel="rel1">
+						<img src="./img/img banners/6.png" class="mb-2" height="75px" alt="" title="Imagem 6">
+					</a>
+					<a href="./img/img banners/7.png" class="big" rel="rel1">
+						<img src="./img/img banners/7.png" class="mb-2" height="75px" alt="" title="Imagem 7">
+					</a>
+					<a href="./img/img banners/8.png" class="big" rel="rel1">
+						<img src="./img/img banners/8.png" class="mb-2" height="75px" alt="" title="Imagem 8">
+					</a>	
+					<a href="./img/img banners/9.png" class="big" rel="rel1">
+						<img src="./img/img banners/9.png" class="mb-2" height="75px" alt="" title="Imagem 9">
+					</a>
+					<a href="./img/img banners/12.png" class="big" rel="rel1">
+						<img src="./img/img banners/12.png" class="mb-2" height="75px" alt="" title="Imagem 10">
+					</a>
+					<a href="./img/img banners/13.png" class="big" rel="rel1">
+						<img src="./img/img banners/13.png" class="mb-2" height="75px" alt="" title="Imagem 11">
+					</a>
+					<a href="./img/img banners/14.png" class="big" rel="rel1">
+						<img src="./img/img banners/14.png" class="mb-2" height="75px" alt="" title="Imagem 12">
+					</a>
+					<a href="./img/img banners/15.png" class="big" rel="rel1">
+						<img src="./img/img banners/15.png" class="mb-2" height="75px" alt="" title="Imagem 13">
+					</a>
+					<a href="./img/img banners/16.png" class="big" rel="rel1">
+						<img src="./img/img banners/16.png" class="mb-2" height="75px" alt="" title="Imagem 14">
+					</a>
+					<a href="./img/img banners/17.png" class="big" rel="rel1">
+						<img src="./img/img banners/17.png" class="mb-2" height="75px" alt="" title="Imagem 15">
+					</a>
+					<a href="./img/img banners/18.png" class="big" rel="rel1">
+						<img src="./img/img banners/18.png" class="mb-2" height="75px" alt="" title="Imagem 16">
+					</a>
+					<a href="./img/img banners/planta 82.png" class="big" rel="rel1">
+						<img src="./img/img banners/planta 82.png" class="mb-2" height="75px" alt="" title="Planta 82m²">
+					</a>
+					<a href="./img/img banners/planta 105.png" class="big" rel="rel1">
+						<img src="./img/img banners/planta 105.png" class="mb-2" height="75px" alt="" title="Planta 105m²">
+					</a>
+					<a href="./img/img banners/planta 121.png" class="big" rel="rel1">
+						<img src="./img/img banners/planta 121.png" class="mb-2" height="75px" alt="" title="Planta 121m²">
+					</a>
+				</div>
+				<!-- plantas -->
+				<div class="col-lg-4 plantas my-4">
+				<h2 class="mb-4 text-center">Plantas</h2>
+				<div class="gallery text-center mt-3 mb-5"> 
+					<a role="button" href="./img/img banners/planta 82.png" class="btn btn-outline-warning mb-1  text-dark rounded-0 big" rel="planta 82m²">Planta 82m²</a>
+					<a role="button" href="./img/img banners/planta 105.png" class="btn btn-outline-warning mb-1 text-dark rounded-0 big" rel="planta 105m²">Planta 105m²</a>
+					<a role="button" href="./img/img banners/planta 121.png" class="btn btn-outline-warning mb-1 text-dark rounded-0 big" rel="planta 121m²">Planta 121m²</a>
+					<p class="text-muted">Clique para vizualizar</p>	
+				</div>
+				<h2 class="text-center mb-4">Localização</h2>
+				<p class="text-center "><b>RUA ERNESTO DE CASTRO - BRÁS - SÃO PAULO - SP</b></p>
+				<p class="text-justify" >O Wonder by Praças da Cidade faz parte de um projeto de revitalização urbana do Brás. Localizado a 400 metros da rua da Mooca, o empreendimento está muito próximo a estação de metrô Brás (Linha Vermelha).</p>
+			</div>
+		</div>	
+	</div>
+</section>
+
+<!-- video -->
+<section class="container-fluid pt-5" id="video">
+	<div class="container-lg video-container align-items-center">
+		<h2 class="text-center">Vídeo</h2>
+			<iframe src="https://www.youtube.com/embed/JIY239S38Fs" title="Wonder High "frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+</section>
+</div>
+
+<section class="bg-pattern-1" id="contato">
+	<div class="container-lg py-4 osfont">
+		<div class="row justify-content-center">
+			<div class="text-center">
+				<h2 class="fw-bold mb-5">Entre em contato</h2>
+			</div>
+		</div>  
+		<div class="row justify-content-center">
+			<div class="col-md-4 col-lg-5">
+				<div class="contato text-end">
+					<h4>Contato</h4>
+					<ul class="nav flex-column">
+						<li class="nav-item mb-2"><a href="https://api.whatsapp.com/send?phone=5511982402359&text=Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20projeto!" class="nav-link p-0 text-muted"><i class="fas fa-phone-square-alt"></i> Contato / Whatsapp: 11 98240-2359</a></li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="col-md-7 col-lg-5 col-ms-4">
+				<form action="mail.php" method="POST">
+					<div class="form-contato">
+						<div class="mb-3">
+							<label for="inputNome" class="form-label"><h4>Nome</h4></label>
+							<input type="text" class="form-control" id="inputNome" name="inputNome" placeholder="Digite seu nome">
+						</div>
+						<div class="mb-3">
+							<label for="inputEmail" class="form-label"><h4>Email</h4></label>
+							<input type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="contato@email.com">
+						</div>
+						<div class="mb-3">
+							<label for="inputTelefone" class="form-label"><h4>Telefone</h4></label>
+							<input type="text" class="form-control" id="inputTelefone" name="inputTelefone" placeholder="Digite seu contato">
+						</div>
+						<div class="mb-3">
+							<label for="textareaMensagem" class="form-label"><h4>Envie sua mensagem</h4></label>
+							<textarea class="form-control" id="textareaMensagem" name="textareaMensagem" rows="3" placeholder="Escreva sua mensagem"></textarea>
+						</div>
+					</div>
+					<input type="submit" name="send" class="btn bg-lavvi text-white d-block" value="Quero mais informações!"></input>
+				</form>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- FOOTER -->
+<section class="container-fluid footer bg-pattern">
+	<div class="container">
+		<div style="color:white;" class="d-flex pt-3">
+			<p>© 2021 - Gerente Enzo - Lavvi </p>
+			<ul class="list-unstyled d-flex ms-auto">
+				<li class="ms-3">
+					<a class="link-dark text-white text-decoration-none" href="https://api.whatsapp.com/send?phone=5511982402359&text=Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20projeto!">
+						<span class="mr-3">Chamar whatsapp</span>
+						<i class="fab fa-whatsapp"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+	<!-- API whatsapp -->
+	<a href="https://api.whatsapp.com/send?phone=5511982402359&text=Gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20projeto!" class="float" 	target="_blank">
+		<i class="fab fa-whatsapp my-float"></i>
+	</a>
+
+	<!-- JS Bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+	<!-- Lightbox -->
+	<script src="./component/simplelightbox/simple-lightbox.min.js"></script>
+	<script src="./component/simplelightbox/simple-lightbox.legacy.min.js"></script>
+	<script src="./component/simplelightbox/simple-lightbox.jquery.min.js"></script>
+
+    <script type="text/javascript">
+      var gallery = $('.gallery a').simpleLightbox({});
+    </script>
+
+	<!-- SCRIPT Tradutor -->
+	<script type="text/javascript">
+		var comboGoogleTradutor = null; //Varialvel global
+	
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'pt',
+				includedLanguages: 'zh-CN,en',
+				layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL
+			}, 'google_translate_element');
+	
+			comboGoogleTradutor = document.getElementById("google_translate_element").querySelector(".goog-te-combo");
+		}
+	
+		function changeEvent(el) {
+			if (el.fireEvent) {
+				el.fireEvent('onchange');
+			} else {
+				var evObj = document.createEvent("HTMLEvents");
+	
+				evObj.initEvent("change", false, true);
+				el.dispatchEvent(evObj);
+			}
+		}
+	
+		function trocarIdioma(sigla) {
+			if (comboGoogleTradutor) {
+				comboGoogleTradutor.value = sigla;
+				changeEvent(comboGoogleTradutor);//Dispara a troca
+			}
+		}
+		</script>
+		<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
